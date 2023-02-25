@@ -1,0 +1,86 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  flex: 1;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+}
+.App-header {
+  padding: 10px;
+  max-height: 200px;
+  background-color: #252525;
+  color: #fff;
+  text-align: center;
+}
+
+div {
+  display: flex;
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
+.App-title {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.App-subtitle {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.App-button {
+  background-color: #0077b6;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.App-button:hover {
+  background-color: #023e8a;
+}
+
+.Card {
+  flex-direction: column;
+  flex:1;
+  border-radius: 15px;
+  padding: 10px;
+  transition: transform 0.5s ease-out;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.App-list {
+  list-style: none;
+  flex: 1;
+  flex-direction: row;
+  height: 400px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+  gap: 60px;
+  margin: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.App-footer {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
+}
